@@ -8,10 +8,10 @@
 - [wmt2021-de-en.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/data/wmt2021-de-en.tar.gz). Raw training data. It is created by concatenating all WMT 2021 DE-EN datasets. The dev data are a concatenation of newstest2019deen and newstest2020deen. Since newstest2019, de-en data are all originally German text to mitigate the translationese effect in evaluation ([Barrault et al., 2019](https://aclanthology.org/W19-5301/)).
 
 ## Transformer Baselines
-- [GENIE-large.de-en_6-6.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-large.de-en_6-6.tar.gz). A transformer large model with 6-layer encoder and decoder (trained for 7 epochs.)
-- [GENIE-base.de-en_6-6.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_6-6.tar.gz). A transformer base model with 6-layer encoder and decoder (trained for 7 epochs.)
-- [GENIE-base.de-en_3-3.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_3-3.tar.gz). A transformer base model with 3-layer encoder and decoder (trained for 7 epochs.)
-- [GENIE-base.de-en_1-1.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_1-1.tar.gz). A transformer base model with 1-layer encoder and decoder (trained for 7 epochs.)
+- [GENIE-large.de-en_6-6.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-large.de-en_6-6.tar.gz). A transformer large model with a 6-layer encoder and decoder (trained for 7 epochs.)
+- [GENIE-base.de-en_6-6.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_6-6.tar.gz). A transformer base model with a 6-layer encoder and decoder (trained for 7 epochs.)
+- [GENIE-base.de-en_3-3.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_3-3.tar.gz). A transformer base model with a 3-layer encoder and decoder (trained for 7 epochs.)
+- [GENIE-base.de-en_1-1.tar.gz](https://arkdata.cs.washington.edu/GENIE/wmt2021-de-en/models/GENIE-base.de-en_1-1.tar.gz). A transformer base model with a 1-layer encoder and decoder (trained for 7 epochs.)
 
 
 ## Installation
