@@ -39,7 +39,7 @@ fairseq-generate wmt2020-en-de_bpe32k_data-bin/ --path GENIE-base.de-en_3-3/chec
 ```
 ## GENIE Submission
 ```bash
-cat test.out | grep -P '^H' | cut -c1- | sort -n -k 1 |uniq | cut -f3 > test.txt
+cat test.out | grep -P '^H' | cut -c3- | sort -n -k 1 |uniq | cut -f 3 > test.txt
 perl mosesdecoder/scripts/tokenizer/detokenizer.perl <  test.txt >  test.detok.txt
 python convert_text2jsonl.py --ref-file data/references/newstest2021.de-en.ref.A.en --sys-file test.detok.txt --ref-file-sgm data/sources/newstest2021.src.de-en.xml --out-file newstest2021.de-en.GENIE-large-6-6.en.json 
 ```
